@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100vw;
+}
+
+header{
+    background-color: aquamarine;
+    padding: 2%;
+    display: flex;
+    justify-content: space-between;
+}
+.nav-links{
+    width: 70%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.nav-links a{
+    text-decoration: none;
+    color: gray;
+    font-family: "Libre Baskerville", serif;
+    font-weight: 800;
+    font-style: normal;
+}
+
+.cnt1{
+    width: 80%;
+    background-color: aqua;
+    text-align: center;
+    font-size: 180%;
+    padding: 10%;
+}
+
+.c1{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.c2{
+    width: 30%;
+    border-radius: 20px;
+    padding: 3%;
+    margin-top: 4%;
+}
+
+.c2 h4{
+    font-size: 140%;
+    
+}
